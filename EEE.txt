@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EEE</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>BOOKS TO BECOME AN ELECTRICAL ENGINEER</h1>
+
+    <ul>
+        <li>Power Electronics by Daniel W. Hart</li>
+        <li>The Art of Electronics</li>
+        <li>Practical Electronics for Inventors</li>
+        <li>Modern Control Systems</li>
+        <li>Electrical Engineering</li>
+    </ul>
+
+</body>
+</html>

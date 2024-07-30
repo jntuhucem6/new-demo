@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIBRARY MANAGEMENT</title>
+</head>
+<body bgcolor="cyan">
+
+    <div>
+        <p><b><i><font color="red" align="center">INTUH COLLEGE OF ENGINEERING</font></i></b></p>
+        <h2><i><font color="blue">LIBRARY MANAGEMENT SYSTEM</font></i></h2>
+    </div>
+    
+    <div>
+        <input type="button" value="Registration" onclick="window.location.href='Registration.html';">
+        <input type="button" value="Login" onclick="window.location.href='login.html';">
+        <input type="button" value="Catalog" onclick="window.location.href='catalog.html';">
+        <input type="button" value="Cart" onclick="window.location.href='cart.html';">
+    </div>
+    
+    <br><br>
+    <img src="C:\Users\91901\Desktop\devint\logo.jpg" width="500" height="300"><br><br>
+    
+    <div>
+        <input type="button" value="CSM" onclick="window.location.href='csm.html';"><br>
+        <input type="button" value="CSE" onclick="window.location.href='cse.html';"><br>
+        <input type="button" value="EEE" onclick="window.location.href='eee.html';"><br>
+        <input type="button" value="MIN" onclick="window.location.href='min.html';"><br>
+        <input type="button" value="CIVIL" onclick="window.location.href='civil.html';"><br>
+        <input type="button" value="MECH" onclick="window.location.href='mech.html';"><br>
+    </div>
+
+</body>
+</html>

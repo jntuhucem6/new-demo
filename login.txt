@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LOGIN</title>
+    <style>
+        h1 {
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body bgcolor="cyan">
+
+    <h1>LOGIN</h1>
+    <h2>This is the login page</h2>
+
+    <label>Name</label>
+    <input type="text" name="Username" size="15" placeholder="Username" required /><br><br>
+
+    <label>Password</label>
+    <input type="password" name="password" size="15" placeholder="password" required /><br><br>
+
+    <input type="submit" value="Submit" />
+
+    <br><br>
+    <a href="https://www.google.com">Click me</a>
+
+</body>
+</html>

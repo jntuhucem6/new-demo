@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MCN</title>
+</head>
+<body bgcolor="lightgreen">
+    <h1>MINING ENGINEER</h1>
+
+    <ul>
+        <li>Elements of Mining and Technology</li>
+        <li>Principles of Coal Mining by R.D. Singh</li>
+        <li>Mine Digest</li>
+        <li>Surface Mining by G.B. Mishra</li>
+        <li>Coal Mining Regulations 2017</li>
+        <li>Mine Gases and Gas Testing</li>
+    </ul>
+
+</body>
+</html>

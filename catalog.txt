@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalog</title>
+    <style>
+        h1 {
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catalog</h1>
+
+    <img src="C:\Users\91901\Desktop\devint\cd.jpg" width="300" height="200"><br>
+    <input type="button" value="Add to cart"/><br><br>
+
+    <img src="C:\Users\91901\Desktop\devint\devops.jpg" width="300" height="200"><br>
+    <input type="button" value="Add to cart"/><br><br>
+
+    <img src="C:\Users\91901\Desktop\devint\ml.jpg" width="300" height="200"><br>
+    <input type="button" value="Add to cart"/><br>
+
+</body>
+</html>
