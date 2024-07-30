@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ARITHEMATIC</title>
+     </head>
+    <body background="./arith.png"> 
+        <div class ="container">
+            <h1>ARITHEMATIC OPERATIONS</h1>
+            First Number:<input type="number" id="num1" placeholder="enter your 1st number"><br><br>
+            Second Number:<input type="number" id="num2" placeholder="enter your 2nd number"><br><br>
+            <button onclick="performAddition()">Addition</button><br><br>
+            <button onclick="performSubstraction()">Substraction</button><br><br>
+            <button onclick="performMultiplication()">Multiplication</button><br><br>
+            <button onclick="performDivision()">Division</button><br><br>
+            <button onclick="performModuloDivision()">ModuloDivision</button><br><br>
+            <div class="result" id="result"></div>
+            <script>
+                function performAddition(){
+                    const num1=parseFloat(document.getElementById('num1').value);
+                    const num2=parseFloat(document.getElementById('num2').value);
+                    const result=num1+num2;document.getElementById('result').innerText='Result:'+result;
+                }
+                function performSubstraction(){
+                    const num1=parseFloat(document.getElementById('num1').value);
+                    const num2=parseFloat(document.getElementById('num2').value);
+                    const result=num1-num2;document.getElementById('result').innerText='Result:'+result;
+                }
+                function performMultiplication(){
+                    const num1=parseFloat(document.getElementById('num1').value);
+                    const num2=parseFloat(document.getElementById('num2').value);
+                    const result=num1*num2;document.getElementById('result').innerText='Result:'+result;
+                }
+                function performDivision(){
+                    const num1=parseFloat(document.getElementById('num1').value);
+                    const num2=parseFloat(document.getElementById('num2').value);
+                    const result=num1/num2;document.getElementById('result').innerText='Result:'+result;
+                }
+                function performModuloDivision(){
+                    const num1=parseFloat(document.getElementById('num1').value);
+                    const num2=parseFloat(document.getElementById('num2').value);
+                    const result=num1%num2;document.getElementById('result').innerText='Result:'+result;
+                }
+            </script>
+        </div>
+    </body>
+</html>
