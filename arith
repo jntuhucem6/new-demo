@@ -45,3 +45,10 @@
         </div>
     </body>
 </html>
+
+
+
+
+FROM nginx:alpine
+COPY arth.html/usr/share/nginx/html/
+EXPOSE 80
